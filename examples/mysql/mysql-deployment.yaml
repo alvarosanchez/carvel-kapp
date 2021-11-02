@@ -45,7 +45,7 @@ spec:
         tier: mysql
     spec:
       containers:
-      - image: mysql:5.6
+      - image: harbor-repo.vmware.com/dockerhub-proxy-cache/library/mysql:5.6
         name: mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
