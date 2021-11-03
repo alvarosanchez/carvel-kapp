@@ -252,7 +252,6 @@ spec:
               value: "8080"
             - name: APACHE_HTTPS_PORT_NUMBER
               value: "8443"
-          envFrom:
           ports:
             - name: http
               containerPort: 8080
